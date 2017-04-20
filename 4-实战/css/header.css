@@ -1,0 +1,212 @@
+/*header start*/
+.header {
+    height: 60px;
+    width: 100%;
+    background: #000;
+}
+.header_logo a {
+    display: inline-block;
+    width: 140px;
+    height: 60px;
+    margin: 0 20px;
+    background: url("../images/logo-another.png") no-repeat center center;
+}
+.header_nav li {
+    height: 60px;
+    float: left;
+    text-align: center;
+    font: 14px/60px "microsoft yahei";
+}
+.header_nav li a {
+    display: inline-block;
+    height: 60px;
+    padding: 0 25px;
+    color: #fff;
+}
+.header_nav li:hover {
+    background: #1E2225;
+}
+.header_nav li i {
+    display: inline-block;
+    width: 10px;
+    height: 13px;
+    position: relative;
+    top: -10px;
+    background: url("../images/sprite.png") no-repeat 0 0 ;
+}
+.header_search {
+    height: 40px;
+    width: 240px;
+    margin-left: 235px;
+    margin-top: 10px;
+    border-bottom: 1px solid #93999F;
+    position: relative;
+}
+.header_search_txt {
+    margin: 10px 0 4px 0;
+    width: 218px;
+    height: 26px;
+    background: #000;
+    border: none;
+    outline: none;
+}
+.header_search_a {
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+.header_search a {
+    display: inline-block;
+    width: 70px;
+    height: 26px;
+    background: #2B333B;
+    color: #7C8288;
+    font: 14px/26px "microsoft yahei";
+    text-align: center;
+}
+.header_search .header_search_a2 {
+    left: 74px;
+}
+.header_search_button {
+    display: inline-block;
+    margin: 13px 4px 0 0;
+    outline: none;
+    border: none;
+    width: 18px;
+    height: 18px;
+    background: url("../images/sprite.png") no-repeat -70px -60px;
+    cursor: pointer;
+}
+.header_login li{
+    float: left;
+    padding: 20px 17px;
+    font: 14px "microsoft yahei";
+}
+.header_login li>a {
+    font: 14px "microsoft yahei";
+    display: inline-block;
+    color: #71777d;
+}
+.header_login .header_car {
+    margin: 0;
+    position: relative;
+    padding-left: 18px;
+}
+.header_login li:hover {
+    background: #1E2225;
+}
+.header_login li:hover>a {
+    color: #fff;
+}
+.header_login li:hover>a>i {
+    background: url("../images/sprite.png") no-repeat -140px 0;
+}
+.header_car>a {
+    margin-left: 18px;
+    color: #71777d;
+}
+.header_car i {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin-right: 7px;
+    background: url("../images/sprite.png") no-repeat -90px -60px ;
+    vertical-align: middle;
+}
+.header_login .header_login_a1:hover {
+    background: #F01400;
+}
+.header_car_content {
+    width: 326px;
+    padding: 0 12px;
+    background: #F5F5F5;
+    position: absolute;
+    top: 60px;
+    right: -5px;
+    display: none;
+    z-index: 100;
+}
+.header_car_content_top {
+    padding: 20px 12px;
+    border-bottom: 1px solid #D9DDE1;
+}
+.header_car_content_top>span {
+    font:16px "microsoft yahei";
+    color: #07111B;
+}
+.header_car_content_top_join {
+    color: #93999F;
+    font: 12px "microsoft yahei";
+}
+.header_car_content_middle {
+    width: 180px;
+    padding: 0 73px;
+    margin: 36px auto 0 auto;    
+    border-bottom: 1px solid #D9DDE1;
+}
+.header_car_content_middle_top {
+    width: 180px;
+    border-bottom: 1px solid #D9DDE1;
+}
+.header_car_content_middle_top i {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+    background: url("../images/sprite.png") no-repeat -75px 0;
+}
+.header_car_content_middle_top p {
+    color: #4D555D;
+    font: 13px "microsoft yahei";
+    padding: 12px 0 25px 0;
+}
+.header_car_content_middle_bottom {
+    width: 180px;
+}
+.header_car_content_middle_bottom p{
+    font: 12px "microsoft yahei";
+    margin: 24px 0 15px 0 ;
+    color: #93999F;
+}
+.header_car_content_middle_bottom a {
+    display: block;
+    color: red;
+    font: 12px "microsoft yahei";
+}
+.header_car_content_middle_bottom_a1 {
+    margin-bottom: 15px;
+}
+.header_car_content_middle_bottom_a2 {
+    margin-bottom: 45px;
+}
+.header_car_content_bottom_a {
+    display: inline-block;
+    margin-left: 12px;
+    margin: 30px 0;
+    color: #93999F;
+    font: 12px "microsoft yahei";
+}
+.header_car_content_bottom_btn {
+    width: 82px;
+    height: 38px;
+    background: #F01400;
+    border-radius: 2px;
+    color: #fff;
+    margin: 16px 0;
+    margin-right: 12px;
+    font: 12px "microsoft yahei";
+}
+.header_car_content_bottom_btn:hover {
+    opacity: 0.5;
+}
+/*header end*/
+
+
+
+
+
+
+
+
+
+

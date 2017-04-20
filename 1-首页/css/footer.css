@@ -1,0 +1,76 @@
+/*footer start*/
+.footer {
+    background: #fff;
+}
+.footer_icon {
+    margin: 30px 0 30px 0 ;
+    height: 32px;
+    position: relative;
+}
+.footer_icon a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 0;
+}
+.footer_icon a i {
+    width: 161px;
+    height: 208px;
+    background: url("../images/sprite.png") no-repeat 0 -210px;
+    display: none;
+    position: relative;
+    top: -215px;
+    left: -65px;
+}
+
+.friendlink ul {
+    height: 42px;
+    border-bottom: 1px solid #D0D6D9;
+}
+.friendlink li {
+    float: left;
+    margin: 0 12px;
+}
+.friendlink li a {
+    font: 13px "microsoft yahei";
+    color: #99A1A6;
+}
+.friendlink li a:hover {
+    color: #C81623;
+}
+.friendlink .friendlink_first {
+    margin-left: 292px;
+}
+
+.copyright {
+    color: #C5BBD9;
+    text-align: center;
+    margin: 20px 0 25px 0 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer end*/

@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/combat.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/header.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <script defer="defer" src="js/common1.js"></script>
+    <script defer="defer" src="js/index.js"></script>
+    <script defer="defer" src="js/combat.js"></script>
+</head>
+<body>
+<!--header  start -->
+<div class="header clearfix">
+    <div class="header_logo fl">
+        <a href="../index.html"></a>
+    </div>
+    <div class="header_nav fl">
+        <ul>
+            <li><a href="../2-课程/课程.html">课程</a></li>
+            <li><a href="../3-职业路径/职业路径.html">职业路径<i></i></a></li>
+            <li style="background: #1E2225;"><a href="#">实战</a></li>
+            <li><a href="#">猿问</a></li>
+            <li><a href="#">手记</a></li>
+        </ul>
+    </div>
+    <div class="header_search fl" id="header_search">
+        <input type="text" class="header_search_txt fl"/>
+        <div class="header_search_a" >
+            <a href="javascript:;" class="header_search_a1">安卓入门</a>
+            <a href="javascript:;"class="header_search_a2">MySQL</a>
+        </div>
+        <button class="header_search_button fr"></button>
+    </div>
+    <div class="header_login">
+        <ul>
+            <li class="header_car fl" id="header_car">
+                <a href="javascript:;"><i></i>购物车</a>
+                <div class="header_car_content" id="headercarcontent">
+                    <div class="header_car_content_top clearfix">
+                        <span class="fl">我的购物车</span>
+                        <div class="header_car_content_top_join fr">已加入<span>0</span>门课程</div>
+                    </div>
+                    <div class="header_car_content_middle">
+                        <div class="header_car_content_middle_top ac">
+                            <i></i>
+                            <p>购物车里空空如也</p>
+                        </div>
+                        <div class="header_car_content_middle_bottom ac">
+                            <p>快去这里选购你中意的课程</p>
+                            <a href="#" class="header_car_content_middle_bottom_a1">实战课程</a>
+                            <a href="#" class="header_car_content_middle_bottom_a2">职业路径</a>
+                        </div>
+                    </div>
+                    <a href="#" class="header_car_content_bottom_a">我的订单中心</a>
+                    <input type="button" value="去购物车" class="header_car_content_bottom_btn fr"/>
+                </div>
+            </li>
+            <li class="header_login_a1">
+                <a href="javascript:;" >登录</a>
+            </li>
+            <li>
+                <a href="javascript:;">注册</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--header end-->
+<!--顶部轮播start-->
+<div class="banner" id="banner">
+    <div class="banxin">
+        <div class="banner-box" id="bannerBox">
+            <div class="banner-pic" id="bannerPic">
+                <ul>
+                    <li><a href="#"><img src="picture/cc.jpg" alt=""/></a></li>
+                    <li><a href="#"><img src="picture/ca.jpg" alt=""/></a></li>
+                    <li><a href="#"><img src="picture/cb.jpg" alt=""/></a></li>
+                </ul>
+                <span class="arrLeft" id="arrLeft"><img src="picture/lat.png" alt=""/></span>
+                <span class="arrRight" id="arrRight"><img src="picture/pre.png" alt=""/></span>
+            </div>
+            <ol class="dot" id="odt">
+                <li class="dot1"></li>
+                <li></li>
+                <li></li>
+            </ol>
+        </div>
+    </div>
+</div>
+<!--顶部轮播end-->
+<!--课程列表start-->
+<div class="main">
+    <div class="banxin">
+        <div class="main-nav clearfix" id="mainNav">
+            <ul>
+                <li><a href="#" class="mainColor">全部</a></li>
+                <li><a href="#">前端开发</a></li>
+                <li><a href="#">后端开发</a></li>
+                <li><a href="#">移动开发</a></li>
+                <li><a href="#">数据库</a></li>
+                <li><a href="#">运维&测试</a></li>
+            </ul>
+        </div>
+        <div class="main-content" id="mainCenter">
+            <ul>
+                <li class="cur"><div class="content-box" id="lesson">
+                    <div class="content-boxes">
+                        <a href="#">
+                            <div class="content-boxes-1">
+                                <img src="picture/1.jpg" alt=""/>
+
+                                <div class="intro">
+                                    <h3>webApp书城整站开发</h3>
+
+                                    <p>HTML5、Vue.js、zepoto、koa框架综合运用</p>
+                                </div>
+                                <div class="content-buttom">
+                                    <span class="money fl">&yen128.00</span>
+                                    <span class="num fr">2187人学习</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div></li>
+                <li><div>前端开发</div></li>
+                <li><div>后端开发</div></li>
+                <li><div>移动开发</div></li>
+                <li><div>数据库</div></li>
+                <li><div>运维&测试</div></li>
+            </ul>
+        </div>
+        <div class="recom">
+            <div class="fl"><a href="#"><img src="picture/recom1.png" alt=""/></a></div>
+            <div class="fr"><a href="#"><img src="picture/recom2.png" alt=""/></a></div>
+        </div>
+    </div>
+</div>
+<!--课程列表end-->
+
+<!--老师介绍 开始-->
+<div class="teacher" id ="teach">
+    <div class="w mainbody">
+        <div class="t-title">
+            <h2>配得上大牛称号的讲师来教你</h2>
+            <p>实战课讲师均来自阿里、百度、腾讯、京东、小米等一线互联网公司，<br/>具有多年技术积淀及开发经验，手把手带你做真实项目，让你告别零项目经验。</p>
+        </div>
+        <ul class="message" id="mes">
+            <li>
+                <span class="t-pic"></span>
+                <div class="t-item">
+                    <h3>eclipse_xu</h3>
+                    <p> 移动开发工程师</p>
+                    <span>曾就职于上海TCL通讯，从事Alcatel（阿尔卡特）Android手机系统的定制工作，目前就职于上海沪江网Android开发部RD项目组，负责App的功能预研，是真正的一线开发人员。著有《Android群英传》和《Android群英传：神兵利器》两书。</span>
+                    <div class="t-bottom">
+                        <a href="#">Android5.0+高级动画开发 矢量图动画 轨迹动画 路径变换</a>
+
+                    </div>
+                </div>
+            </li>
+            <li>
+                <span class="t-pic"></span>
+                <div class="t-item">
+                    <h3>七月在夏天</h3>
+                    <p>神秘讲师“七月”</p>
+                    <span>作为微信小程序第一波开发者，他受邀编写小程序开发书籍，不久就会出版。八年研发及团队管理经验，做过程序员、当过项目经理、技术总监、CTO的开发者，他喜欢写代码带来成就感。</span>
+                    <div class="t-bottom">
+                        <a href="#">微信小程序入门与实战  常用组件 API 开发技巧 项目实战</a>
+
+                    </div>
+                </div>
+            </li>
+            <li>
+                <span class="t-pic"></span>
+                <div class="t-item">
+                    <h3>Goal2Go</h3>
+                    <p>软件测试工程师</p>
+                    <span>从事测试领域10年时间，主要负责无线搜索前端，搜索App客户端和服务端的测试管理工作，具备丰富的测试项目实战经验。同时在自动化测试、API接口、服务端功能测试等领域上有深厚的造诣。</span>
+                    <div class="t-bottom">
+                        <a href="#">Android专项测试-Python篇  10年测试经验讲师</a>
+
+                    </div>
+                </div>
+            </li>
+            <li>
+                <span class="t-pic"></span>
+                <div class="t-item">
+                    <h3>ustbhuangyi</h3>
+                    <p>滴滴前端技术专家</p>
+                    <span>北京科技大学计算机专业硕士。曾任职百度，现就职滴滴，前端技术专家。对Vue.js有很深的理解，是《Vue.js权威指南》一书的主要作者。他有着教科书式的代码写作习惯，对代码有洁癖，追求高质量的代码。强化提升编写高可扩展，通用性强的代码的能力</span>
+                    <div class="t-bottom">
+                        <a href="#">Vue.js高仿饿了么外卖App 2016最火前端框架</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <span class="t-pic"></span>
+                <div class="t-item">
+                    <h3>nate</h3>
+                    <p>资深移动开发工程师</p>
+                    <span>任爽老师喜欢把技术分为两类，一类是让你走的更新的技术，“学会某种语言或新特性，能快速上手开发产品”；一类是让你走的更远的技术，“学会优秀的设计思想、模式，真正懂得代码之间的优劣，能设计出适合业务需求的架构，让代码更灵活、优雅，更能应对未来的变化”。</span>
+                    <div class="t-bottom">
+                        <a href="#">Android网络层架构设计实战  基于okhttp3</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <span class="t-pic"></span>
+                <div class="t-item">
+                    <h3>liuyubobobo</h3>
+                    <p>全栈工程师</p>
+                    <span>他是ACM实力得主，曾获ACM省级金奖、亚洲区铜奖。在开发领域卓有建树，对产品设计、前后端、智能算法等领域均有接触，曾制作近20款个人独立App，并全部成功上架。授课风趣清晰，有极强的感染力，享有用户极高的评价“波总出品，必属精品”！</span>
+                    <div class="t-bottom">
+                        <a href="#">算法与数据结构C++精解</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <span class="t-pic"></span>
+                <div class="t-item">
+                    <h3>城下秋草</h3>
+                    <p>测试架构师</p>
+                    <span>老师就职于国内某知名大型技术企业，历任测试经理、测试架构师，有超过10年的各类大型系统和移动应用解决方案测试经验。在自动化测试技术、平台建设方面有丰富深厚的技术积累，这样专家级的老师近在咫尺，不要错过！</span>
+                    <div class="t-bottom">
+                        <a href="#">Android自动化测试实战  工具 框架 脚本</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <span class="t-pic"></span>
+                <div class="t-item">
+                    <h3>__bobby</h3>
+                    <p>django专家</p>
+                    <span>具有多年django开发的经验， 一直致力于通过django完成web全栈开发。
+现任创业公司的CTO，无论后台开发、前端开发，还是移动端开发，一直致力于通过django和前端打造高效的全端开发技术栈。</span>
+                    <div class="t-bottom">
+                        <a href="#">强力django+杀手级xadmin  打造上线标准的在线教育平台</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <span class="t-pic"></span>
+                <div class="t-item">
+                    <h3>李_捷</h3>
+                    <p>PHP高级工程师</p>
+                    <span>85后，6年项目开发经验，作为一名程序员的“老师”，他拥有深厚的教学功底。工程师和老师的双重身份，让他更理解学生的痛点，他的课程不仅直击要害，而且简洁易懂，将实践和理论完美结合。</span>
+                    <div class="t-bottom">
+                        <a href="#">Yii2.0打造完整电商平台</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <span class="t-pic"></span>
+                <div class="t-item">
+                    <h3>表严肃</h3>
+                    <p>全栈工程师</p>
+                    <span>6年全栈开发经历，执迷于新技术研究，新技术的狂热追求者，乐于分享，传道。如果你想以最快的速度熟悉新技术，开阔思维，表严肃就是你近在咫尺的良师益友。</span>
+                    <div class="t-bottom">
+                        <a href="#">6小时用 jQuery 实现小应用</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <span class="t-pic"></span>
+                <div class="t-item">
+                    <h3>Scott</h3>
+                    <p>nodejs技术专家</p>
+                    <span>是国内最早接触 Node.js 的工程师，也是最早用 Node.js 做开发的工程师之一，拥有大量 Node.js 全站开发经验，是新技术的追求者和传播者，对于课程他认真细致，有着近乎完美的追求。</span>
+                    <div class="t-bottom">
+                        <a href="#">React Native贯穿全栈开发App</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <span class="t-pic"></span>
+                <div class="t-item">
+                    <h3>远人</h3>
+                    <p>前端架构师</p>
+                    <span>国内最早一批HTML5实践者，先后就职于腾讯、人人网、小米、美团。具有丰富的海量服务前端开发经验，在慕课网拥有近20万学员，是学生眼中的明星讲师。</span>
+                    <div class="t-bottom">
+                        <a href="#">webApp书城整站开发</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <span class="t-pic"></span>
+                <div class="t-item">
+                    <h3>Lyn</h3>
+                    <p>百度前端工程师</p>
+                    <span>追求代码界面的可扩展性、性能、设计和出色的用户体验，对代码复用、组件化有深入研究，是新技术追求者、代码极客、慕课网明星讲师。</span>
+                    <div class="t-bottom">
+                        <a href="#">组件方式开发 Web App全站</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <span class="t-pic"></span>
+                <div class="t-item">
+                    <h3>singwa</h3>
+                    <p>PHP开发工程师</p>
+                    <span>拥有丰富的大数据、高并发处理、大型网站架构经验。曾在新浪视频负责PHP开发，CCTV6电影网项目经理，现在某大型知名互联网公司负责大数据流的开发。讲课风格激情澎湃，认真负责。</span>
+                    <div class="t-bottom">
+                        <a href="#">前端后台ThinkPHP开发整站</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <span class="t-pic"></span>
+                <div class="t-item">
+                    <h3>程序员硕</h3>
+                    <p>资深开发工程师/架构师</p>
+                    <span>曾就职于全球领先的半导体公司Freescale、清华大学信研院等知名企业及研究机构。是国内著名开源项目skyeye中Python架构的贡献者。具有多年开发及教学双重经验，精通多种语言。</span>
+                    <div class="t-bottom">
+                        <a href="#">Python高级编程技巧实战</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <span class="t-pic"></span>
+                <div class="t-item">
+                    <h3>vczero_</h3>
+                    <p>现阿里技术专家</p>
+                    <span>拥有多年的前端node·js开发和架构经验，曾在高德地图、携程等大企业就职，做过基础技术架构，带过研发团队。同时对React Native有很深的理解，是《React Native入门与实战》的作者，还是infoQ、OSC等会议讲师。</span>
+                    <div class="t-bottom">
+                        <a href="#">React Native快速开发 厕所在哪App LBS定位 框架封装</a>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+    <ul class="t-btn" id="t-ul">
+        <li class="t-current"></li>
+
+        <li></li>
+
+        <li></li>
+
+        <li></li>
+
+
+
+    </ul>
+    <div class="i_btn" id="tbtn">
+        <a href="javascript:void(0)"  class="tt_btn pr_L"></a>
+        <a href="javascript:void(0)"  class="tt_btn ne_R"></a>
+    </div>
+</div>
+<!--老师介绍 结束-->
+<!--用户评价轮播 开始 -->
+<div class="classmate">
+    <div class="w main-top">
+        <h2>真实的项目开发经历，就是增加收入的凭证</h2>
+        <p>无论职场工作还是求职路上，实战课所带给你的项目经验和前沿流行技术，让你比竞争者更有实际经验。</p>
+    </div>
+    <div class="scroll_div" id="cSlide">
+        <ul class="w pic-content">
+            <li>
+                <img src="">
+                <div class="user-content">
+                    <h3>爱读书的Iceberg</h3>
+                    <div class="student-tag">来自<a href="#" target="_blank">飞速上手的跨平台App开发</a></div>
+                    <p>老师真的是很感谢你的课程，我们这些小白，提了那么多白痴问题，您还是耐心作答，态度点赞！
+                        ionic2算是比较前瞻的前端技术了吧，8月份学习的，学习这个可以平滑的度过到angualrJs2的学习，es6，typeScript,自动化构建工具这些，对于想进阶的前端和开阔眼界的前端，真的是再好不过的课程了。以前的工资只是用Jquery+Bootstrap这些，现在重新换了一份工作，工资翻了翻，也进入了一个气氛比较好的团队，特此来感谢！</p>
+                </div>
+            </li>
+            <li>
+                <img src="">
+                <div class="user-content">
+                    <h3>Lee_D_尼奥</h3>
+                    <div class="student-tag">来自<a href="#" target="_blank">前端后台ThinkPHP开发整站</a></div>
+                    <p>作为php新手的第一个thinkphp框架项目很适合，小到函数方法的实现，大到项目的流程、架构，都讲的面面俱到。老师，棒棒哒！点个赞！</p>
+                </div>
+            </li>
+            <li>
+                <img src=""/>
+                <div class="user-content">
+                    <h3>慕粉3393950</h3>
+                    <div class="student-tag">来自<a href="#" target="_blank">微信小程序入门与实战  常用组件 API 开发技巧 项目实战</a></div>
+                    <p>老师讲的非常好 就是按大家的思路来写的 先写复杂用作的代码 在一点点优化 而且提的很多以后自学Api的方法也很实际很真诚 为你点赞 希望以后出更多好的课程 还有剩下的那几节什么时候开放啊 希望老师快点录</p>
+                </div>
+            </li>
+            <li>
+                <img src=""/>
+                <div class="user-content">
+                    <h3>霪霖笙箫</h3>
+                    <div class="student-tag">来自<a href="#" target="_blank">Vue.js高仿饿了么外卖App 2016最火前端框架</a></div>
+                    <p>非常好的课程，看了遍文档来学庆幸自己跟得上~  跟着老师用vue-cli搭起来，到现在已完成了第7章，
+                        满满的干货，老师的代码习惯，命名规范对我也有很大的参考~  以前都是写好静态页面，然后拆着套模板，跟着老师这样一步步走，学到很多新的技巧、启发思路， 希望早点更完啊~~
+                        建议和我一样没基础的同学们先跟着老师用Vue 1.0.26，做好了一起用Vue 2.0(2.1)来重构吧，正好练手。
+                        顺便期待老师的下一个实战项目，物超所值的198~~</p>
+                </div>
+            </li>
+            <li>
+                <img src=""/>
+                <div class="user-content">
+                    <h3>ragerhino</h3>
+                    <div class="student-tag">来自<a href="#" target="_blank">Yii2.0打造完整电商平台</a></div>
+                    <p>老师讲课没有拖沓，没有多余的废话，精炼实用，刀刀入肉！ 当之无愧的金牌讲师，期待老师更多的课程！</p>
+                </div>
+            </li>
+        </ul>
+        <div class="i_btn" id="ibtn">
+            <a href="javascript:void(0)"  class="ii_btn prev_L"></a>
+            <a href="javascript:void(0)"  class="ii_btn next_R"></a>
+        </div>
+
+    </div>
+</div>
+<!--用户评价轮播 结束-->
+<!--footer start -->
+<div class="footerall">
+    <div class="footer banxin ">
+        <div class="footer_icon" id="footer_icon">
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"><i id="wechaterweima"></i></a>
+        </div>
+        <div class="friendlink">
+            <ul>
+                <li class="friendlink_first"><a href="#">企业合作</a></li>
+                <li><a href="#">人才招聘</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">讲师招募</a></li>
+                <li><a href="#">常见问题</a></li>
+                <li><a href="#">意见反馈</a></li>
+                <li><a href="#">慕课大学</a></li>
+                <li><a href="#">友情链接</a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <span>&copy; 2017 imooc.com  京ICP备 13046642号-2</span>
+        </div>
+    </div>
+</div>
+<!--footer end-->
+<!--侧面slider start-->
+<div class="sidebar">
+    <ul>
+        <li class="li1" id="li1"><a href="#" id="a1"><span class="span1" id="span1">常见<br/>问题</span></a></li>
+        <li class="li2" id="li2"><a href="#" id="a2"><span class="span2" id="span2">意见<br/>反馈</span></a></li>
+        <li class="li3" id="li3"><a href="#" id="a3"><span class="span3" id="span3">APP<br/>下载</span></a></li>
+        <li class="li4" id="li4"><a href="#" id="a4"><span class="span4" id="span4">官方<br/>微信</span></a></li>
+        <li class="li5" id="li5"><a href="#header_car" id="a5"><i id="li5_i">∧</i><span class="span5" id="span5">返回<br/>顶部</span></a></li>
+    </ul>
+</div>
+<div class="elevator3" id="elevator3"></div>
+<div class="elevator4" id="elevator4"></div>
+<!--侧面slider end-->
+</body>
+</html>

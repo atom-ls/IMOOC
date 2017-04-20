@@ -1,0 +1,205 @@
+/*header start*/
+.headerall {
+    padding-top: 10px;
+    height: 70px;
+    background: #fff;
+}
+.header {
+    height: 60px;
+    width: 100%;
+}
+.header_logo {
+    margin: 0 20px;
+    margin-top: -10px;
+}
+.header_logo a {
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+    background: url("../images/sprite.png") no-repeat -150px -25px;
+    position: relative;
+ }
+.header_nav li {
+    float: left;
+    text-align: center;
+    font: 16px/60px "microsoft yahei";
+    position: relative;
+}
+.header_nav li a {
+    display: inline-block;
+    height: 60px;
+    padding: 0 20px;
+    color: #07111B;
+}
+.header_nav li a:hover {
+    color: #F01400;
+}
+.header_nav li i {
+    display: inline-block;
+    width: 10px;
+    height: 13px;
+    position: relative;
+    top: -10px;
+    background: url("../images/sprite.png") no-repeat 0 0 ;
+}
+.header_search {
+    height: 60px;
+    margin-left: 210px;
+    position: relative;
+}
+.header_search_txt {
+    margin: 10px 0 10px 0;
+    width: 205px;
+    height: 38px;
+    padding-right:30px ;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #D9DDE1;
+}
+.header_search_a {
+    position: absolute;
+    top: 17px;
+    left: 0;
+}
+.header_search a {
+    display: inline-block;
+    width: 70px;
+    height: 26px;
+    background: #F3F5F7;
+    color: #B999B3;
+    font: 14px/26px "microsoft yahei";
+    text-align: center;
+}
+.header_search .header_search_a2 {
+    left: 74px;
+}
+.header_search_button {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: -30px;
+    outline: none;
+    border: none;
+    width: 18px;
+    height: 18px;
+    background: url("../images/sprite.png") no-repeat -12px 0;
+    cursor: pointer;
+}
+.header_login li{
+    height: 60px;
+    float: left;
+    font: 14px "microsoft yahei";
+}
+.header_login li>a {
+    padding: 20px 17px;
+    font: 14px "microsoft yahei";
+    display: inline-block;
+}
+.header_login li:hover>a>i {
+    background: url("../images/sprite.png") no-repeat -165px 0;
+}
+.header_login .header_car {
+    margin: 0;
+    position: relative;
+    padding-left: 18px;
+}
+.header_car>a {
+    padding: 20px 17px;
+}
+.header_car i {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin-right: 7px;
+    background: url("../images/sprite.png") no-repeat -32px 0 ;
+    vertical-align: middle;
+}
+
+.header_car_content {
+    width: 326px;
+    padding: 0 12px;
+    position: absolute;
+    top: 60px;
+    right: -5px;
+    display: none;
+    background: #F5F5F5;
+    z-index: 100;
+}
+.header_car_content_top {
+    padding: 20px 12px;
+    border-bottom: 1px solid #D9DDE1;
+}
+.header_car_content_top>span {
+    font:14px "microsoft yahei";
+    color: #07111B;
+}
+.header_car_content_top_join {
+    color: #93999F;
+    font: 12px "microsoft yahei";
+}
+.header_car_content_middle {
+    width: 180px;
+    padding: 0 73px;
+    margin: 36px auto 0 auto;    
+    border-bottom: 1px solid #D9DDE1;
+}
+.header_car_content_middle_top {
+    width: 180px;
+    border-bottom: 1px solid #D9DDE1;
+}
+.header_car_content_middle_top i {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+    background: url("../images/sprite.png") no-repeat -75px 0;
+}
+.header_car_content_middle_top p {
+    color: #4D555D;
+    font: 13px "microsoft yahei";
+    padding: 12px 0 25px 0;
+}
+.header_car_content_middle_bottom {
+    width: 180px;
+}
+.header_car_content_middle_bottom p{
+    font: 12px "microsoft yahei";
+    margin: 24px 0 15px 0 ;
+    color: #93999F;
+}
+.header_car_content_middle_bottom a {
+    display: block;
+    color: red;
+    font: 12px "microsoft yahei";
+}
+.header_car_content_middle_bottom_a1 {
+    margin-bottom: 15px;
+}
+.header_car_content_middle_bottom_a2 {
+    margin-bottom: 45px;
+}
+.header_car_content_bottom_a {
+    display: inline-block;
+    margin-left: 12px;
+    margin: 30px 0;
+    color: #93999F;
+    font: 12px "microsoft yahei";
+}
+.header_car_content_bottom_btn {
+    width: 82px;
+    height: 38px;
+    background: #F01400;
+    color: #fff;
+    margin: 16px 0;
+    margin-right: 12px;
+}
+/*header end*/
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,67 @@
+/*footer start*/
+.footerall {
+    background: #000;
+}
+.footer {
+    background: #000;
+    position: relative;
+    height: 78px;
+}
+
+.footer_icon {
+    height: 32px;
+    width: 300px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.footer_icon a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+}
+
+.footer_icon a i {
+    width: 161px;
+    height: 208px;
+    background: url("../images/sprite.png") no-repeat 0 -210px;
+    display: none;
+    position: relative;
+    top: -215px;
+    left: -65px;
+}
+
+.friendlink ul {
+    position: absolute;
+    top: 28px;
+    left: 40px;
+}
+
+.friendlink li {
+    float: left;
+    margin-right: 12px;
+}
+
+.friendlink li a {
+    font: 12px "microsoft yahei";
+    color: #C8CDD2;
+}
+
+.friendlink li a:hover {
+    color: #C81623;
+}
+
+.copyright {
+    position: absolute;
+    top: 54px;
+    left: 40px;
+    color: #787D82;
+    text-align: center;
+    font: 12px "microsoft yahei";
+}
+
+/*footer end*/

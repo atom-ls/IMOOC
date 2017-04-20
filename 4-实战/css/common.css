@@ -1,0 +1,46 @@
+
+body{
+	font: 14px/1.5 "PingFang SC",Helvetica,"Helvetica Neue","微软雅黑",Tahoma,Arial,sans-serif;
+}
+
+html,body,ul,li,p,h1,h2,h3,img,input {
+	margin:0;
+	padding:0;
+}
+
+input,img {
+	border: 0;
+}
+ul {
+	list-style: none;
+}
+body {
+	font-size: 12px;
+/*	color: #434343;
+	font-family: "宋体";
+	background: #FFFFFF;*/
+}
+.clearfix:after {
+	content: "";
+	height: 0;
+	line-height: 0;
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+}
+a {
+	color: #333;
+	text-decoration: none;
+}
+a:hover {
+/*	color: #0266A3;*/
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}

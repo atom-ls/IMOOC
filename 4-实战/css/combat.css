@@ -1,0 +1,236 @@
+/*老师介绍 开始*/
+.teacher{
+    height: 605px;
+    background: url(../images/cover_02.jpg) no-repeat center 0;
+    position:relative;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+.mainbody{
+    height: 605px;
+    overflow: hidden;
+    width: auto;
+    max-width: 1200px;
+    position: relative;
+}
+
+.t-title {
+    height:236px;
+    overflow: hidden;
+}
+.t-title h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 36px;
+    line-height: 36px;
+    margin-top: 80px;
+    font-weight: bold;
+}
+.t-title p {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 20px;
+}
+.message{
+    width: 4800px;
+    position: absolute;
+    top: 225px;
+}
+.message li{
+    position: relative;
+    float: left;
+    padding-top: 48px;
+    width: 300px;
+    height: 380px;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+}
+.message .t-pic{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.message span{
+    display: block;
+}
+.message .t-item {
+    text-align:center;
+}
+.message li .t-item h3{
+    font-size: 24px;
+    line-height: 24px;
+    color: white;
+    margin-top: 16px;
+}
+.message li .t-item p{
+    font-size: 14px;
+    line-height: 14px;
+    color: white;
+    margin-top: 15px;
+}
+.message li .t-item span{
+    font-size: 12px;
+    color: #93999f;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 20px;
+    padding: 0 20px;
+    display: none;
+}
+.message li .t-bottom{
+    margin: 15px 20px 0;
+    padding-top: 15px;
+    border-top: 1px solid #d9dde1;
+    font-size: 12px;
+    line-height: 25px;
+    display: none;
+}
+.teacher .t-btn{
+    position: absolute;
+    left: 0;
+    bottom: 35px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.teacher .t-btn li{
+    border-radius: 25px;
+    width: 8px;
+    height: 8px;
+    margin: 0 5px;
+    display: inline-block;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+}
+.t-current{
+    background: #fff;
+    border: 2px solid #fff;
+}
+.tt_btn{
+    width: 26px;
+    height: 70px;
+    position: absolute;
+    top: 300px;
+    z-index: 99;
+}
+.pr_L{
+    background: url(../images/arrow_l.png) no-repeat center center;
+    left: 200px;
+}
+.ne_R{
+    background: url(../images/arrow_r.png) no-repeat center center;
+    right: 200px;
+}
+/*老师介绍*/
+
+/*学生轮播图*/
+.classmate{
+    background: #d9dde1;
+    height: 560px;
+    overflow: hidden;
+}
+.classmate .main-top{
+    width: auto;
+    max-width: 1200px;
+    position: relative;
+}
+.classmate .main-top h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #07111b;
+    line-height: 36px;
+    margin-top: 60px;
+}
+.classmate .main-top p{
+    text-align: center;
+    font-size: 14px;
+    color: #4d555d;
+    line-height: 24px;
+    margin-top: 20px;
+}
+.classmate .scroll_div{
+    width: 1200px;
+    text-align: center;
+    margin: 42px auto 0;
+    height: 310px;
+    position:relative;
+}
+.classmate .scroll_div .pic-content{
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 0;
+}
+.pic-content li {
+    position: absolute;
+    width: 800px;
+    height: 233px;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.pic-content img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 32px 24px 0 32px;
+    float: left;
+}
+.pic-content .user-content{
+    padding: 32px 32px 32px 116px;
+}
+.user-content h3 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #07111b;
+    text-align: left;
+}
+.user-content .student-tag {
+    margin-top: 12px;
+    text-align: left;
+    font-size: 12px;
+    color: #93999f
+}
+.user-content .student-tag a{
+    color: #008cc8;
+}
+.user-content p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #4d555d;
+    text-align: left;
+    margin-top: 16px
+}
+.i_btn{
+    display: none;
+}
+.ii_btn {
+    width: 26px;
+    height: 70px;
+    position: absolute;
+    top: 90px;
+    z-index: 99;
+}
+.prev_L{
+    background: url(../images/arrow_l.png) no-repeat center center;
+    left:10%;
+}
+.next_R{
+    background: url(../images/arrow_r.png) no-repeat center center;
+    right:10%;
+}
+/*学生轮播图*/
